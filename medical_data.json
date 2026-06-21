@@ -1,0 +1,152 @@
+{
+  "common_cold": {
+    "display_name": "Common Cold",
+    "description": "A common viral infection of the nose and throat.",
+    "care": "Rest, drink plenty of fluids, and use over-the-counter cold medications. Symptoms usually resolve in 7-10 days.",
+    "symptoms": ["sore_throat", "cough", "runny_nose", "sneezing", "mild_fever", "fatigue"]
+  },
+  "influenza": {
+    "display_name": "Influenza (Flu)",
+    "description": "A contagious respiratory illness caused by influenza viruses.",
+    "care": "Rest, hydration, antiviral medications (if prescribed by a doctor). A flu vaccine is the best prevention.",
+    "symptoms": ["fever", "cough", "sore_throat", "runny_nose", "muscle_pain", "body_aches", "headache", "fatigue"]
+  },
+  "covid_19": {
+    "display_name": "COVID-19",
+    "description": "A contagious viral infection caused by SARS-CoV-2.",
+    "care": "Isolation, rest, hydration. Seek medical care for severe symptoms. Vaccination is highly effective for prevention.",
+    "symptoms": ["fever", "cough", "shortness_of_breath", "fatigue", "loss_of_taste", "loss_of_smell", "headache", "sore_throat"]
+  },
+  "pneumonia": {
+    "display_name": "Pneumonia",
+    "description": "Infection that inflames air sacs in one or both lungs, which may fill with fluid.",
+    "care": "Requires medical diagnosis. Treatment includes antibiotics (if bacterial), rest, and hydration. Severe cases may require hospitalization.",
+    "symptoms": ["cough", "fever", "chills", "shortness_of_breath", "chest_pain", "fatigue"]
+  },
+  "bronchitis": {
+    "display_name": "Bronchitis",
+    "description": "Inflammation of the lining of your bronchial tubes, which carry air to and from your lungs.",
+    "care": "Rest, hydration, cough medicine. Antibiotics if bacterial. Avoid smoke and fumes.",
+    "symptoms": ["cough", "mucus_production", "fatigue", "shortness_of_breath", "mild_fever", "chest_discomfort"]
+  },
+  "migraine": {
+    "display_name": "Migraine",
+    "description": "A type of headache characterized by severe throbbing pain, often accompanied by nausea and sensitivity to light and sound.",
+    "care": "Rest in a quiet, dark room. Over-the-counter pain relievers or prescription migraine medication.",
+    "symptoms": ["headache", "nausea", "vomiting", "sensitivity_to_light", "sensitivity_to_sound"]
+  },
+  "tension_headache": {
+    "display_name": "Tension Headache",
+    "description": "A common type of headache often related to stress or muscle tension. Feels like a dull, aching pain.",
+    "care": "Over-the-counter pain relievers, relaxation techniques, stress management.",
+    "symptoms": ["headache", "neck_pain", "shoulder_pain", "pressure_in_head"]
+  },
+  "sinusitis": {
+    "display_name": "Sinusitis (Sinus Infection)",
+    "description": "Inflammation or swelling of the tissue lining the sinuses, often causing congestion and facial pain.",
+    "care": "Nasal decongestants, saline nasal spray, rest, hydration. Antibiotics if bacterial.",
+    "symptoms": ["headache", "runny_nose", "nasal_congestion", "facial_pain", "loss_of_smell", "cough"]
+  },
+  "food_poisoning": {
+    "display_name": "Food Poisoning",
+    "description": "Illness caused by consuming contaminated food or drink.",
+    "care": "Hydration is key (drink plenty of fluids). Rest. Gradually reintroduce bland foods. Medical attention if severe.",
+    "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal_pain", "fever"]
+  },
+  "viral_gastroenteritis": {
+    "display_name": "Viral Gastroenteritis (Stomach Flu)",
+    "description": "Inflammation of the stomach and intestines caused by a virus. Highly contagious.",
+    "care": "Hydration, rest, bland diet (BRAT: Bananas, Rice, Applesauce, Toast).",
+    "symptoms": ["diarrhea", "nausea", "vomiting", "abdominal_pain", "mild_fever"]
+  },
+  "anemia": {
+    "display_name": "Anemia",
+    "description": "A condition in which there is a deficiency of red cells or of hemoglobin in the blood.",
+    "care": "Requires medical diagnosis. Treatment depends on the cause (e.g., iron supplements for iron-deficiency anemia).",
+    "symptoms": ["fatigue", "weakness", "dizziness", "shortness_of_breath", "headache", "pale_skin"]
+  },
+  "strep_throat": {
+    "display_name": "Strep Throat",
+    "description": "A bacterial infection that can make your throat feel sore and scratchy.",
+    "care": "Requires medical diagnosis. Treated with antibiotics, pain relievers, rest, and hydration.",
+    "symptoms": ["sore_throat", "fever", "swollen_glands", "pain_when_swallowing", "headache"]
+  },
+  "allergies": {
+    "display_name": "Allergies (Hay Fever)",
+    "description": "An allergic response causing cold-like signs and symptoms, such as a runny nose, itchy eyes, congestion, sneezing, and sinus pressure.",
+    "care": "Antihistamines, decongestants, nasal sprays. Avoiding allergens where possible.",
+    "symptoms": ["sneezing", "runny_nose", "itchy_eyes", "watery_eyes", "nasal_congestion"]
+  },
+  "asthma": {
+    "display_name": "Asthma",
+    "description": "A condition in which a person's airways become inflamed, narrow, and swell, and produce extra mucus.",
+    "care": "Requires medical diagnosis. Managed with inhalers (bronchodilators) and long-term control medications.",
+    "symptoms": ["shortness_of_breath", "wheezing", "cough", "chest_tightness"]
+  },
+  "gerd": {
+    "display_name": "GERD (Acid Reflux)",
+    "description": "A digestive disorder where stomach acid frequently flows back into the tube connecting your mouth and stomach (esophagus).",
+    "care": "Dietary changes (avoiding spicy/fatty foods), antacids, prescription medications.",
+    "symptoms": ["heartburn", "chest_pain", "cough", "difficulty_swallowing", "sore_throat"]
+  },
+  "ibs": {
+    "display_name": "Irritable Bowel Syndrome (IBS)",
+    "description": "A common disorder that affects the large intestine, causing cramping, abdominal pain, bloating, gas, diarrhea, and constipation.",
+    "care": "Requires medical diagnosis. Managed through diet, lifestyle changes, and stress management.",
+    "symptoms": ["abdominal_pain", "bloating", "gas", "diarrhea", "constipation"]
+  },
+  "uti": {
+    "display_name": "Urinary Tract Infection (UTI)",
+    "description": "An infection in any part of the urinary system, but most common in the bladder and urethra.",
+    "care": "Requires medical diagnosis. Treated with antibiotics and hydration.",
+    "symptoms": ["painful_urination", "frequent_urination", "cloudy_urine", "abdominal_pain", "back_pain"]
+  },
+  "type_2_diabetes": {
+    "display_name": "Type 2 Diabetes",
+    "description": "A chronic condition that affects the way the body processes blood sugar (glucose).",
+    "care": "Requires medical diagnosis. Managed through diet, exercise, medication, and blood sugar monitoring.",
+    "symptoms": ["frequent_urination", "increased_thirst", "fatigue", "blurred_vision", "hunger"]
+  },
+  "hypertension": {
+    "display_name": "Hypertension (High Blood Pressure)",
+    "description": "A common condition in which the long-term force of the blood against your artery walls is high enough that it may eventually cause health problems.",
+    "care": "Requires medical diagnosis. Managed through diet (low sodium), exercise, and medication.",
+    "symptoms": ["often_no_symptoms", "headache", "shortness_of_breath", "dizziness"]
+  },
+  "eczema": {
+    "display_name": "Eczema (Atopic Dermatitis)",
+    "description": "A condition that makes your skin red and itchy. It's common in children but can occur at any age.",
+    "care": "Moisturizers, topical creams (corticosteroids), and avoiding triggers.",
+    "symptoms": ["rash", "itchy_skin", "dry_skin", "red_patches"]
+  },
+  "psoriasis": {
+    "display_name": "Psoriasis",
+    "description": "A skin condition that causes cells to build up rapidly on the surface of the skin, forming scales and red patches that are itchy and sometimes painful.",
+    "care": "Requires medical diagnosis. Managed with topical creams, light therapy, and medications.",
+    "symptoms": ["rash", "red_patches", "silvery_scales", "itchy_skin", "dry_skin"]
+  },
+  "arthritis": {
+    "display_name": "Arthritis",
+    "description": "The swelling and tenderness of one or more joints, causing pain and stiffness.",
+    "care": "Requires medical diagnosis. Managed with pain relievers, anti-inflammatory drugs, and physical therapy.",
+    "symptoms": ["joint_pain", "joint_stiffness", "swelling", "reduced_range_of_motion"]
+  },
+  "muscle_strain": {
+    "display_name": "Muscle Strain",
+    "description": "An injury to a muscle or a tendon, often caused by overstretching or overuse.",
+    "care": "Rest, Ice, Compression, and Elevation (R.I.C.E.). Over-the-counter pain relievers.",
+    "symptoms": ["muscle_pain", "soreness", "swelling", "limited_range_of_motion"]
+  },
+  "conjunctivitis": {
+    "display_name": "Conjunctivitis (Pink Eye)",
+    "description": "Inflammation or infection of the transparent membrane (conjunctiva) that lines your eyelid and covers the white part of your eyeball.",
+    "care": "Depends on the cause (viral, bacterial, or allergic). May include eye drops, compresses. Highly contagious if viral or bacterial.",
+    "symptoms": ["itchy_eyes", "watery_eyes", "red_eyes", "eye_discharge"]
+  },
+  "dehydration": {
+    "display_name": "Dehydration",
+    "description": "A condition caused by the loss of too much fluid from the body. It happens when you lose more fluids than you take in.",
+    "care": "Replenish fluids by drinking water or electrolyte solutions. Seek medical care if severe.",
+    "symptoms": ["dizziness", "dry_mouth", "fatigue", "increased_thirst", "headache"]
+  }
+}
